@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti | Famiglia Rolando</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="opacity-0 bg-[#FCFAF7]">
+
+    <div class="preloader"><h1 class="font-serif italic text-3xl">Contatti</h1></div>
+    <div id="dynamic-header"></div>
+
+    <!-- PARALLAX HERO -->
+    <header class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1464207687429-7505649dae38?q=80&w=1920');">
+        <div class="page-hero-content container mx-auto px-6 fade-in-up">
+            <h1 class="text-6xl md:text-8xl font-serif text-white italic drop-shadow-lg">Dove Siamo</h1>
+        </div>
+    </header>
+
+    <section class="py-24 px-6 container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+            
+            <div class="fade-in-up space-y-12 pt-10">
+                <div>
+                    <strong class="block text-[#A08C5B] uppercase text-xs tracking-widest mb-3">Indirizzo</strong>
+                    <p class="font-serif text-3xl text-[#1A1A1A]">Via Centrale 18,<br>Caprauna (CN)</p>
+                </div>
+                <div>
+                    <strong class="block text-[#A08C5B] uppercase text-xs tracking-widest mb-3">Prenotazioni</strong>
+                    <p class="text-gray-600 mb-4 text-lg">Si riceve solo su appuntamento.</p>
+                    <a href="tel:+390174000000" class="text-2xl hover:text-[#A08C5B] transition block font-bold">+39 0174 000000</a>
+                    <a href="mailto:info@rolando.it" class="text-lg hover:text-[#A08C5B] transition block mt-2">info@famigliarolando.it</a>
+                </div>
+            </div>
+
+            <!-- MAP -->
+            <div class="h-[500px] w-full relative fade-in-up bg-white p-2 shadow-2xl">
+                 <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.092498263721!2d7.951564315525208!3d44.11671997910815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d2a6a6a6a6a6a7%3A0x6a6a6a6a6a6a6a6!2sCaprauna%20CN!5e0!3m2!1sit!2sit!4v1600000000000" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <div id="dynamic-footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
